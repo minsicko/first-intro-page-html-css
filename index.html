@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Minsik</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="/images/duck.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+        </header>
+
+
+        <section id="intro">
+            <div class="introContainer"> <!-- 인사 -->
+                <h1>Hello</h1>
+                <h2>Welcome to My Page</h2>
+                <nav> <!-- 내비게이션 -->
+                    <a href="#aboutMeId">About Me</a> |
+                    <a href="#factsId">Not-so-Fun Facts</a> |
+                    <a href="#contacts">Contacts</a>
+                </nav>
+            </div>
+        </section> 
+
+        <section id="aboutMeId">
+            <div class="meContainer">
+                <img class="mePic" src="/images/1.jpeg" alt="Me">
+                <div class="aboutMeContainer">
+                    <h3 id="aboutMeTitle">About Me</h3>
+                    <blockquote>
+                        Hi. My name is <span id="name">Minsik Chun</span>.<br>
+                        I am an aspiring Software Engineer.<br>
+                        I lived some time in the states,<br>
+                        and came to Korea to learn to code.<br>
+                        Let's have some fun!
+                    </blockquote>
+                    <div id="meButton">
+                        | <a href="#factsId">Not-So-Fun Facts&#8594;</a> |<br>
+                        | <a href="#">Top</a> |
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="factsId">
+            <div class="factsContainer">
+                <div class="facts">
+                    <h3><span id="notSo">Not So</span> Fun Facts</h3>
+                    <div id="factsDesc">
+                        <h4>These are things I like</h4>
+                        <h4><span id="click">Click</span> to waste time</h4>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <button id="valButton" onclick="window.open('https://www.youtube.com/watch?v=8hnKGfHdWZA', '_blank')"">Valorant</button>
+                    <button id="tennisButton" onclick="window.open('https://www.youtube.com/watch?v=DArjhNNr4eM', '_blank')"">Tennis</button>
+                    <button id="basketballButton" onclick="window.open('https://www.youtube.com/watch?v=7fPcse1phtk', '_blank')"">Basketball</button>
+                </div>
+                <div id="meButton2">
+                    | <a href="#aboutMeId">&#8592;About Me</a> | <a href="#contacts">Contacts&#8594;</a> |<br>
+                    | <a href="#">Top</a> |
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <div class="contactsbg">
+                <p>Contact Me</p>
+                <div id="contactLinks">
+                    <a href="https://www.instagram.com/minsicko/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="mailto:hellominsik95@gmail.com" class="fa fa-google"></a>
+                    <div>
+                        <a href="https://github.com/minsicko" target="_blank">
+                        <img class="githubLogo" src="/images/githublogo.png" alt="My Github"></a>
+                    </div>
+                </div>
+                <div id="meButton3">
+                    | <a href="#factsId">&#8592;Not-so-fun Facts</a> | <br>
+                    | <a href="#">Top</a> |
+                </div>    
+            </div>
+            
+        </section>
+    </body>
+
+    
+</html>

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: Silkscreen;
+}
+
+#intro {
+    background-image: url("/images/introbg.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introContainer {
+    text-align: left;
+    margin-left: 10vh;
+    padding-top: 30vh;
+}
+
+nav {
+    margin-top: 5vh;
+}
+
+a {
+    color: rgb(242, 106, 106);
+}
+
+a:hover {
+    color: rgb(229, 173, 173);
+}
+
+h1 {
+    font-size: 40px;
+    -webkit-text-stroke: .2px rgb(196, 105, 172);
+}
+
+
+.meContainer {
+    background-color: rgb(219, 238, 255);
+    width: 100%;
+    height: 750px;
+}
+
+.mePic {
+    width: 40%;
+    float: left;
+    border-radius: 80%;
+    border: inset 13px rgb(217, 208, 248);
+    border-left-color: rgb(255, 255, 255);
+    border-bottom-color:rgb(255, 207, 207);
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: -250px;
+    
+}
+
+.aboutMeContainer {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 275px;
+}
+
+#aboutMeTitle {
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 5vh;
+    -webkit-text-stroke: .1px rgb(255, 186, 186);
+
+}
+
+#name {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    -webkit-text-stroke: .1px rgb(255, 71, 234);
+}
+
+#meButton {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.factsContainer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 950px;
+    padding-top: 3px;
+}
+
+.facts {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+#notSo {
+    font-size: 25px;
+    color:red;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+#factsDesc {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#click {
+    color:rgb(145, 145, 244);
+}
+
+#buttons {
+    text-align: center;
+}
+
+#valButton {
+    background-image: url(/images/valorant.png);
+    width: 220px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: inset 5px rgb(4, 0, 255);
+    border-radius: 90%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  #tennisButton {
+    background-image: url(/images/tennis.png);
+    width: 220px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: inset 5px rgb(255, 0, 0);
+    border-radius: 90%;
+    color: transparent;
+    text-align: center;
+    margin-right: 20px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  #basketballButton {
+    background-image: url(/images/ball.jpeg);
+    width: 220px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: inset 5px rgb(119, 255, 0);
+    border-radius: 90%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  #meButton2 {
+    margin-top: 20px;
+    color: rgb(253, 0, 0);
+    text-align: center;
+  }
+
+  #meButton2 a {
+    color: rgb(121, 255, 226);
+  }
+
+  #meButton2 a:hover {
+    color:rgb(180, 180, 241);
+  }
+
+  button:hover {
+    transition-duration: .1s;
+    filter:blur(2px);
+    transform: scale(.95);
+  }
+
+  .contactsbg {
+    background-color: rgb(244, 246, 201);
+    width: 100%;
+    height: 750px;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 35px;
+  }
+
+  .fa {
+    color:rgb(124, 50, 194);
+    padding: 20px;
+    font-size: 80px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    color:rgb(255, 0, 0);
+  }
+
+  .fa-google {
+    color: rgb(14, 174, 14);
+    padding: 20px;
+    font-size: 80px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 10vh;
+    margin-right: 13vh;
+  }
+
+  #contactLinks {
+    margin-left: 42%;
+    padding-top: 20px;
+  }
+
+  .githubLogo {
+    display:inline-block;
+    width: 80px;
+    height: 80px;
+    margin-left: 9%;
+  }
+
+  .githubLogo:hover {
+    opacity: .5;
+  }
+
+  #meButton3 {
+    text-align: center;
+    margin-top: 10vh;
+    color:rgb(240, 136, 0);
+  }
+
+  #meButton3 a {
+    color: rgb(68, 68, 36);
+  }
