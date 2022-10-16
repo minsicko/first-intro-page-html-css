@@ -18,7 +18,7 @@ body {
 }
 
 #intro {
-    background-image: url("/images/introbg.png");
+    background-image: url("images/introbg.png");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
