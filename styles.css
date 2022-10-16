@@ -133,7 +133,7 @@ h4 {
 }
 
 #valButton {
-    background-image: url(/images/valorant.png);
+    background-image: url(images/valorant.png);
     width: 220px;
     height: 220px;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ h4 {
   }
 
   #tennisButton {
-    background-image: url(/images/tennis.png);
+    background-image: url(images/tennis.png);
     width: 220px;
     height: 220px;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ h4 {
   }
 
   #basketballButton {
-    background-image: url(/images/ball.jpeg);
+    background-image: url(images/ball.jpeg);
     width: 220px;
     height: 220px;
     background-repeat: no-repeat;
